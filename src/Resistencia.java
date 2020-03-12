@@ -72,59 +72,7 @@ public class Resistencia extends javax.swing.JFrame {
         return reset;
     }
 
-    public int Select1() {
-        int opcion = List1.getSelectedIndex();
-        switch (opcion) {
-            case 0:
-                color1.setBackground(reset_color());
-                break;
-            case 1:
-                opcion = 0;
-                color1.setBackground(Color.BLACK);
-                break;
-            case 2:
-                opcion = 1;
-                color1.setBackground(cafe());
-                break;
-            case 3:
-                opcion = 2;
-                color1.setBackground(Color.RED);
-                break;
-            case 4:
-                opcion = 3;
-                color1.setBackground(Color.ORANGE);
-                break;
-            case 5:
-                opcion = 4;
-                color1.setBackground(Color.YELLOW);
-                break;
-            case 6:
-                opcion = 5;
-                color1.setBackground(Color.GREEN);
-                break;
-            case 7:
-                opcion = 6;
-                color1.setBackground(Color.BLUE);
-                break;
-            case 8:
-                opcion = 7;
-                color2.setBackground(violeta());
-                break;
-            case 9:
-                opcion = 8;
-                color1.setBackground(Color.GRAY);
-                break;
-            case 10:
-                opcion = 9;
-                color1.setBackground(Color.WHITE);
-                break;
-            default:
 
-                break;
-        }
-
-        return opcion;
-    }
 
     public int Select2() {
         int opcion = List2.getSelectedIndex();
